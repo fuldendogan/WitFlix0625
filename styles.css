@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+header img.logo {
+    display: flex;
+    height: 25px;
+}
+
+header .search {
+    gap: 1rem;
+}
+
+header nav {
+    gap: 1rem;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav a {
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: red;
+}
+
+header .search {
+    cursor: pointer;
+}
+
+header .search input {
+    color: #fff;
+    background: transparent;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(132, 136, 137);
+    border-image: initial;
+    padding: 0.1rem 0.6rem;
+    outline: none;
+    transition: border-color 0.4s;
+}
+
+main {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../img/bg.jpg') no-repeat center center/cover;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.movies .item {
+    width: 32%;
+    position: relative;
+}
+
+.movies .item img {
+    width: 100%;
+}
+
+.movies .movie-item-info {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.movie-item-info span {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.movie-item-info a {
+    background-color: red;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 0.4rem;
+    transition: 0.5s;
+}
+
+.movie-item-info a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    gap: 1rem;
+}
+
+footer .about {
+    width: 60%;
+    font-size: 0.8rem;
+}
+
+footer .about p {
+    text-align: justify;
+}
+
+footer .logo img {
+    height: 2rem;
+}
